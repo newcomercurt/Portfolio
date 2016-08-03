@@ -15,6 +15,19 @@ header .btn {
     background-color: rgb(240,106,71);
     color: white;
 }
+.myName{
+  float:left;
+}
+.nav-info a {
+  font-size: .8rem;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+.nav-info a:hover {
+    background-color: rgb(240,106,71);
+    color: white;
+}
 body {
   font-size: 16px;
   color: rgb(84, 84, 86);
