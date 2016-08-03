@@ -1,0 +1,18 @@
+
+ [
+  {"title":"This is my first entry",
+    "category":"code",
+    "author":"Curt Newcomer",
+    "authorUrl":"newcomercurt@gmail.com",
+    "publishedOn": "2016-07-31",
+    "body":"<p>This is a sentence of stuff that I am writing for a test to see if my justify css property is working</p>"
+  },
+  {
+    "title":"Blog Two",
+    "category":"food",
+    "author":"Curt Newcomer",
+    "authorUrl":"www.avclub.com",
+    "publishedOn": "2016-06-15",
+    "body":"<p>Article content</p>"
+  }
+]

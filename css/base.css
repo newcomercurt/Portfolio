@@ -1,0 +1,24 @@
+ul {
+  list-style-type: none;
+}
+header .btn {
+  text-align: center;
+}
+
+.nav-main a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+.nav-main a:hover {
+    background-color: rgb(240,106,71);
+    color: white;
+}
+body {
+  font-size: 16px;
+  color: rgb(84, 84, 86);
+}
+main p {
+text-align: justify;
+}
