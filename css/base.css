@@ -4,9 +4,8 @@ ul {
 header .btn {
   text-align: center;
 }
-
 .nav-main a {
-  font-size: 1.6rem;
+  font-size: 1rem;
   text-decoration: none;
   display: inline-block;
   float: left;
@@ -19,7 +18,7 @@ header .btn {
   float:left;
 }
 .nav-info a {
-  font-size: .8rem;
+  font-size: 1.3rem;
   text-decoration: none;
   display: inline-block;
   float: left;
@@ -34,4 +33,10 @@ body {
 }
 main p {
 text-align: justify;
+}
+#headshot {
+  max-width: 100%;
+}
+#beach {
+  max-width: 100%;
 }
