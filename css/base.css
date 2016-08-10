@@ -1,17 +1,20 @@
 ul {
   list-style-type: none;
 }
+#jumbotron {
+  max-width: 100%;
+  position: relative;
+}
 .myName {
   float: left;
   font-size: 6.5rem;
   padding-left: 4rem;
 }
 .icons {
-  padding-top: 3rem;
-  padding-left: 1rem;
-  float: right;
+  padding-top: 3.3rem;
+  padding-left: 2rem;
+  float: left;
 }
-
 .nav-info a {
   color: rgb(84, 84, 86);
   font-size: 2rem;
@@ -25,8 +28,4 @@ ul {
 body {
   font-size: 1.6rem;
   color: rgb(84, 84, 86);
-}
-#jumbotron {
-  max-width: 100%;
-  position: relative;
 }
