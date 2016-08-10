@@ -1,49 +1,29 @@
 ul {
   list-style-type: none;
 }
-header .btn {
-  text-align: center;
-}
-.nav-main a {
-  font-size: 1rem;
-  text-decoration: none;
-  display: inline-block;
-  float: left;
-}
-.nav-main a:hover {
-  background-color: rgb(240, 106, 71);
-  color: white;
-}
 .myName {
   float: left;
   font-size: 6.5rem;
 }
 .icons {
   padding-top: 2rem;
-  float: right;
 }
 #git-icon {
   padding-right: 2rem;
 }
 .nav-info a {
-  font-size: 1.3rem;
+  color: rgb(84, 84, 86);
+  font-size: 2rem;
   text-decoration: none;
-  display: inline-block;
+  padding-right: 3rem;
   float: left;
 }
 .nav-info a:hover {
-  background-color: rgb(240, 106, 71);
-  color: white;
+  color: rgb(240, 106, 71);
 }
 body {
   font-size: 1.6rem;
   color: rgb(84, 84, 86);
-}
-main p {
-  text-align: justify;
-}
-#headshot {
-  max-width: 100%;
 }
 #beach {
   max-width: 100%;
