@@ -12,7 +12,6 @@ h1 {
   position: absolute;
   padding-left: 4rem;
   width: 100%;
-  font-weight: bold;
 }
 .myName {
   float: left;
@@ -41,6 +40,6 @@ body {
 #submission {
   text-align: center;
   font-size: 3rem;
-  padding-top: 10rem;
+  padding-top: 9rem;
   color: rgb(255, 255, 255);
 }

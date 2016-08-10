@@ -34,7 +34,7 @@ $('[data-content="about"]').on('click', function() {
 });
 $('[data-content="work"]').on('click', function() {
   $('#work').show();
-  $('#blogposts, #about, #conatact').hide();
+  $('#blogposts, #about, #contact').hide();
 });
 $('[data-content="contact"]').on('click', function() {
   $('#contact').show();
