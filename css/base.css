@@ -1,13 +1,18 @@
 ul {
   list-style-type: none;
 }
+h1 {
+  font-weight: bold;
+}
 .jumbotron {
   max-width: 100%;
   position: relative;
 }
 .jumbotext {
   position: absolute;
+  padding-left: 4rem;
   width: 100%;
+  font-weight: bold;
 }
 .myName {
   float: left;
