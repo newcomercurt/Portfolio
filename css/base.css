@@ -4,6 +4,7 @@ ul {
 .myName {
   float: left;
   font-size: 6.5rem;
+  padding-left: 4rem;
 }
 .icons {
   padding-top: 3rem;
