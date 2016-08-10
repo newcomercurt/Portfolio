@@ -29,8 +29,13 @@ ul {
 .nav-info a:hover {
   color: rgb(240, 106, 71);
 }
-body .text {
+body {
   font-size: 1.6rem;
   color: rgb(84, 84, 86);
 }
-#submission {}
+#submission {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 17rem;
+  color: rgb(255, 255, 255);
+}
