@@ -6,11 +6,11 @@ ul {
   font-size: 6.5rem;
 }
 .icons {
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  float: right;
 }
-#git-icon {
-  padding-right: 2rem;
-}
+
 .nav-info a {
   color: rgb(84, 84, 86);
   font-size: 2rem;
