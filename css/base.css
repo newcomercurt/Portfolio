@@ -10,13 +10,12 @@ h1 {
 }
 .jumbotext {
   position: absolute;
-  padding-left: 4rem;
   width: 100%;
 }
 .myName {
   float: left;
   font-size: 6.5rem;
-  padding-left: 4rem;
+  padding-left: 7rem;
 }
 .icons {
   padding-top: 3.3rem;
@@ -27,7 +26,7 @@ h1 {
   color: rgb(84, 84, 86);
   font-size: 2rem;
   text-decoration: none;
-  padding-right: 3rem;
+  padding-left: 3rem;
   float: left;
 }
 .nav-info a:hover {
@@ -42,4 +41,5 @@ body {
   font-size: 3rem;
   padding-top: 9rem;
   color: rgb(255, 255, 255);
+
 }
