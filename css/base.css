@@ -22,7 +22,8 @@ h1 {
 }
 .nav-info a {
   color: rgb(84, 84, 86);
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   text-decoration: none;
   padding-left: 3rem;
   float: left;
@@ -37,6 +38,7 @@ body {
 #submission {
   text-align: center;
   font-size: 3rem;
+  font-weight: bold;
   padding-top: 9rem;
   color: rgb(255, 255, 255);
 }
