@@ -3,7 +3,8 @@ var $work = $('#work');
 var $blog = $('#blogposts');
 var $contact = $('#contact');
 
-page('/', about);
+page('/');
+page('/about', about);
 page('/work', work);
 page('/blog', blog);
 page('/contact', contact);
