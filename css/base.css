@@ -5,12 +5,10 @@ h1 {
   font-weight: bold;
 }
 .jumbotron {
-  max-width: 100%;
-  position: relative;
-}
-.jumbotext {
-  position: absolute;
   width: 100%;
+  position: relative;
+  background-image: url("/images/kinzel.jpg");
+  background-size: cover;
 }
 .myName {
   float: left;
@@ -41,5 +39,4 @@ body {
   font-size: 3rem;
   padding-top: 9rem;
   color: rgb(255, 255, 255);
-
 }
