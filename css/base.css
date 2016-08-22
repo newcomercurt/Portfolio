@@ -11,6 +11,7 @@ h1 {
   background-size: cover;
 }
 .myName {
+  color: rgb(240, 106, 71);
   float: left;
   font-size: 6.5rem;
   padding-left: 7rem;
@@ -21,7 +22,7 @@ h1 {
   float: left;
 }
 .nav-info a {
-  color: rgb(84, 84, 86);
+  color: rgb(240, 106, 71);
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -29,7 +30,7 @@ h1 {
   float: left;
 }
 .nav-info a:hover {
-  color: rgb(240, 106, 71);
+  color: rgb(84, 84, 86);
 }
 body {
   font-size: 2.6rem;
@@ -41,4 +42,7 @@ body {
   font-weight: bold;
   padding-top: 9rem;
   color: rgb(255, 255, 255);
+}
+#submission .button:hover {
+  color: rgb(240, 106, 71);
 }
