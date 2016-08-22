@@ -46,3 +46,14 @@ body {
 #submission .button:hover {
   color: rgb(255, 255, 255);
 }
+#work {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  column-count: 4;
+  column-gap: 2rem;
+}
+#work img {
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 3rem;
+  }
