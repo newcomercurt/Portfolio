@@ -47,12 +47,15 @@ body {
   color: rgb(255, 255, 255);
 }
 #work {
-  line-height: 1;
+  line-height: 3;
   column-count: 4;
   column-gap: 2rem;
 }
 #work img {
-  width: 100% !important;
-  height: auto !important;
-  padding-top: 3rem;
-  }
+  max-width: 100%;
+  max-height: 100%;
+}
+.featherlight .featherlight-image {
+  height: 50vh !important;
+  width: auto !important;
+}

@@ -1,5 +1,6 @@
 var blogPosts = [];
-function BlogPost (opts) {
+
+function BlogPost(opts) {
   this.title = opts.title;
   this.category = opts.category;
   this.author = opts.author;
@@ -17,11 +18,13 @@ $('[data-content=blog]').on('click', function(e) {
   $('#blogposts').show();
   $('#work, #about, #contact').hide();
   $.ajax({
-    type:'GET',
+    type: 'GET',
     url: 'scripts/blog.json',
     success: function(json) {
       console.log('made it here');
-      var html = recentPostsCompiled({posts:json});
+      var html = recentPostsCompiled({
+        posts: json
+      });
       $('#blogposts').html(html);
     }
   });
@@ -42,3 +45,12 @@ $('[data-content="contact"]').on('click', function() {
 });
 //below shows the about page once the javascript has loaded
 $('[data-content="about"]').triggerHandler('click');
+
+$('#work').featherlightGallery({
+  gallery: {
+    fadeIn: 300,
+    fadeOut: 300
+  },
+  openSpeed: 300,
+  closeSpeed: 300
+});
