@@ -13,16 +13,18 @@ h1 {
 .myName {
   float: left;
   font-size: 6.5rem;
-  padding-left: 7rem;
-  color: rgb(255, 255, 255);
+  padding-left: 3rem;
+  color: rgb(84, 84, 86);
 }
 .icons {
   padding-top: 3.3rem;
-  padding-left: 2rem;
-  float: left;
+  padding-right: 2rem;
+  padding-right: 2rem;
+  float: right;
 }
 .nav-info a {
-  color: rgb(255, 255, 255);
+  color: rgb(84, 84, 86);
+  padding-top: 3.3rem;
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -56,6 +58,6 @@ body {
   max-height: 100%;
 }
 .featherlight .featherlight-image {
-  height: 50vh !important;
+  height: 60vh !important;
   width: auto !important;
 }
