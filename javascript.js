@@ -54,17 +54,17 @@ $('#work').featherlightGallery({
   openSpeed: 300,
   closeSpeed: 300
 });
-$('#submission').on('submit', function(event) {
-  if (event.keyCode === 13) {
-    submitComment(event);
-  };
+console.log('test');
+$('#submission').on('submit', function() {
+  console.log('here');
+  submitComment();
 });
 
 function submitComment(event) {
-  event.preventDefault();
-  var comment = $('[name="comment"]').val().trim();
-  var name = $('[name="name"]').val().trim();
-  var mail = $('[name="mail"]').val().trim();
+  // event.preventDefault();
+  var comment = $('input[name="comment"]').val().trim();
+  var name = $('input[name="name"]').val().trim();
+  var mail = $('input[name="mail"]').val().trim();
   console.log(comment, name, mail);
   alert('Success!');
 };
