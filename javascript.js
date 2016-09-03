@@ -54,3 +54,17 @@ $('#work').featherlightGallery({
   openSpeed: 300,
   closeSpeed: 300
 });
+$('#submission').on('submit', function(event) {
+  if (event.keyCode === 13) {
+    submitComment(event);
+  };
+});
+
+function submitComment(event) {
+  event.preventDefault();
+  var comment = $('[name="comment"]').val().trim();
+  var name = $('[name="name"]').val().trim();
+  var mail = $('[name="mail"]').val().trim();
+  console.log(comment, name, mail);
+  alert('Success!');
+};
