@@ -54,9 +54,8 @@ $('#work').featherlightGallery({
   openSpeed: 300,
   closeSpeed: 300
 });
-console.log('test');
+
 $('#submission').on('submit', function() {
-  console.log('here');
   submitComment();
 });
 
