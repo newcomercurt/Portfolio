@@ -16,11 +16,6 @@ h1 {
   padding-left: 3rem;
   color: rgb(84, 84, 86);
 }
-/*.icons {
-  padding-top: 3.3rem;
-  padding-right: 4rem;
-  float: right;
-}*/
 .nav-info a {
   color: rgb(84, 84, 86);
   padding-top: 3.3rem;
@@ -32,6 +27,23 @@ h1 {
 }
 .nav-info a:hover {
   color: rgb(240, 106, 71);
+}
+
+/*until line 46 this is part of the WIP nav bar test*/
+
+@media screen and (max-width:680px) {
+  ul.nav-info li:not(:first-child) {
+    display: none;
+  }
+  ul.nav-info li.hamburger {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.nav-info.responsive {
+    position: relative;
+  }
 }
 body {
   font-size: 2.6rem;

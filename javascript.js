@@ -67,3 +67,12 @@ function submitComment(event) {
   console.log(comment, name, mail);
   alert('Success!');
 };
+// the below is part of the WIP menu process
+function hamburgerMenu() {
+  var x = document.getElementById('hamburger');
+  if (x.className === 'nav-info') {
+    x.className += 'responsive';
+  } else {
+    x.className = 'nav-info';
+  }
+}
