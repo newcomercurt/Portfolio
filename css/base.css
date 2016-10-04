@@ -37,7 +37,7 @@ h1 {
   }
   ul.nav-info li.hamburger {
     float: right;
-    display: inline-block;
+    /*display: inline-block;*/
   }
 }
 @media screen and (max-width:680px) {
@@ -46,7 +46,7 @@ h1 {
   }
 }
 body {
-  font-size: 2.6rem;
+  font-size: 2rem;
   color: rgb(84, 84, 86);
 }
 #submission {
